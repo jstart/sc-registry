@@ -1,11 +1,13 @@
+ruby '2.1.2'
 source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 gem 'pg'
-
+gem 'unicorn'
 gem 'devise'
+gem 'rack-timeout'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
