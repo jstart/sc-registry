@@ -8,6 +8,7 @@ gem 'pg'
 gem 'unicorn'
 gem 'devise'
 gem 'rack-timeout'
+gem 'rails_12factor'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
