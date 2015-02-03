@@ -10,6 +10,9 @@ gem 'devise'
 gem 'rack-timeout'
 gem 'rails_12factor'
 
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
+
 gem 'stripe'
 gem 'stripe_event'
 
