@@ -1,12 +1,4 @@
-default: &default
+development: &default
   adapter: postgresql 
   pool: 5
   timeout: 5000
-
-development:
-  adapter: postgresql  
-  host: ec2-174-129-1-179.compute-1.amazonaws.com                            # HOST 
-  port: 5432                            # Port  
-  database: dfg9o0rhd5q8u1               # Database Name  
-  username: jpowwshcmffjpb                  # User Name  
-  password: 'o_v9iyzpS4XmyzhhlfvFHw5'                  # Password 
