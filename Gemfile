@@ -10,8 +10,9 @@ gem 'devise'
 gem 'rack-timeout'
 gem 'rails_12factor'
 
-gem 'bootstrap-sass', '~> 3.2.0'
-gem 'autoprefixer-rails'
+gem "therubyracer"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem "twitter-bootstrap-rails"
 
 gem 'stripe'
 gem 'stripe_event'
