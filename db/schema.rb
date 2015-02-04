@@ -18,6 +18,10 @@ ActiveRecord::Schema.define(version: 20150115050631) do
     t.integer  "year"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
+    t.string :description
+    t.string :make
+    t.string :model
+    t.string :color
   end
 
   create_table "users", force: :cascade do |t|
